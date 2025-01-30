@@ -1,23 +1,49 @@
 <!doctype html>
-<html data-wf-domain="rudolf-template.webflow.io" data-wf-page="6708d98bc7ddbb18614ffb99"
+<html  data-wf-page="6708d98bc7ddbb18614ffb99"
   data-wf-site="6708d98bc7ddbb18614ffb9a" lang="en" data-wf-locale="en">
 
 <head>
-
+   
   
   <meta charset="utf-8" />
   <title>blissify</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   
+  <script>
+    const cursor  = document.querySelector('.cursor');
+    document.addEventListener('mousemove', e => {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top = e.clientY + 'px';
+    })
+
+  </script>
   <style>
     html {
 
-      font-family: sans-serif
+      font-family: sans-serif;
+      cursor: cursor;
+      
+    }
+
+
+
+    .cursor{
+      position:fixed;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #fff;
+      border: 1px solid #000;
+      transform: translate(-50%,-50%);
+      pointer-events: none;
+      mix-blend-mode: difference;
+
     }
 
     body {
       max-width: 100vw;
-      margin: 0
+      margin: 0;
+       
     }
 
     article,
@@ -43,6 +69,10 @@
       vertical-align: baseline;
       display: inline-block
     }
+
+    
+
+
 
     audio:not([controls]) {
       height: 0;
@@ -284,7 +314,7 @@
       margin: 0;
       font-family: bb, sans-serif;
       font-size: 14px;
-      line-height: 20px
+      line-height: 20px;
     }
 
     img {
@@ -3372,7 +3402,7 @@
       overflow: hidden
     }
 
-    .grain {
+    .gran {
       z-index: 99999;
       opacity: .05;
       pointer-events: none;
@@ -4056,7 +4086,8 @@
     .services_accordion {
       flex-direction: column;
       justify-content: flex-start;
-      align-items: stretch
+      align-items: stretch;
+     
     }
 
     .services_question {
@@ -4068,12 +4099,13 @@
       padding-top: 2rem;
       padding-bottom: 2rem;
       transition: all .4s;
-      display: flex
+      display: flex;
+      
     }
 
     .services_question:hover {
       padding-left: .5rem;
-      padding-right: .5rem
+      padding-right: .5rem;
     }
 
     .services_icon-wrapper {
@@ -6726,8 +6758,8 @@
           <nav role="navigation" id="w-node-_71275dc7-c518-5320-1c4b-282e48aedfd7-48aedfd2" class="nav_menu w-nav-menu">
             <div class="nav_menu-link-wrapper">
               <div class="nav_menu-links">
-                <a  href="#academy" style=" color: white; font-family: bb;" class="nav_link w-nav-link">Home</a><a  href="/#services" style=" color: white; font-family: bb;" class="nav_link w-nav-link">Services</a><a
-                href="#services" style="color: white; font-family: bb; " class="nav_link w-nav-link">Academy</a><a
+                <a  href="#home" style=" color: white; font-family: bb;" class="nav_link w-nav-link">Home</a><a  href="/#services" style=" color: white; font-family: bb;" class="nav_link w-nav-link">Services</a><a
+                href="#academy" style="color: white; font-family: bb; " class="nav_link w-nav-link">Academy</a><a
                 style="color: white; font-family: bb; " href="/#testimonials" class="nav_link w-nav-link">FeedBack</a>
               </div>
               <div  id="w-node-_71275dc7-c518-5320-1c4b-282e48aedfe0-48aedfd2" class="nav_button-wrapper">
@@ -6873,12 +6905,13 @@
           <div class="container-large">
             <div class="padding-section-large">
               <div class="w-layout-grid intro_grid">
-                <h2 id="w-node-c7bc327d-970a-69ce-2175-cb5e77b2acd0-614ffb99"
+                <h3 id="w-node-c7bc327d-970a-69ce-2175-cb5e77b2acd0-614ffb99"
                   data-w-id="c7bc327d-970a-69ce-2175-cb5e77b2acd0">
                   <span
-                    style="color:#FFC70A ; opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                    class="span_heading _01">Human-centric Culture :
+                    style="color:#FFC70A ; font-size: 100px;  opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                    class="span_heading _01  ">Human -  <span style="color: white;" >centric</span> Culture 
                   </span>
+                  <div></div>
                   <span
                     style="-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                     class="span_heading _02"> Shifting focus </span>
@@ -6919,8 +6952,6 @@
                         src="https://cdn.prod.website-files.com/6708d98bc7ddbb18614ffb9a/670ebe78b08e15897603af2b_icon-team.avif"
                         alt="" class="button_icon secondary" />
                       <div class="button_text">More about us</div>
-                    </a><a href="https://forms.gle/fTWjvX7rUx72wPYB9" class="button_link quaternary w-inline-block">
-                      <div class="button_text">Contact us</div>
                     </a>
                   </div>
                 </div>
@@ -7254,15 +7285,15 @@ step();
               <div  style="font-family: bb; padding-bottom: 0;  " class="w-layout-grid ">
                 <h2  data-w-id="61e7dd72-c68b-849d-ec2a-ba055b6548fd" class="heading_huge">
                   <span
-                    style=" letter-spacing: 1px; margin-top: 0%;  opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                    style="font-size: 80px; letter-spacing: 1px; margin-top: 0%;  opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                     class="span_heading _01">Challenges </span>
                   <span
-                    style=  " letter-spacing: 1px;  -webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                    class="span_heading _02"><span style="color: #FFC70A;" >WE</span> Address</span>
+                    style=  "font-size: 80px; letter-spacing: 1px;  -webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                    class="span_heading _02"><span style="color: #FFC70A;" >WE <br></span> Address</span>
                 </h2>
                 
                 <div  class="svg-container">
-                  <img style="padding-bottom: 0%; padding-top: 40% ;margin: 30%;margin-bottom: 0%; width: 60%;" src=" assets/logos/b.png" alt="">
+                  <img style="padding-bottom: 0%; padding-top: 10% ;margin: 0%;margin-bottom: 0%; width: 20%;" src=" assets/logos/b.png" alt="">
                 </div>
                 <style>
                   .svg-container {
@@ -7508,13 +7539,13 @@ step();
     
         <div  style="width: 96%; font-family: bb;letter-spacing: 2px ;padding-top: 0%;padding-bottom: 0%;  padding-left: 2%; padding-right: 2%;" class="divv">
     
-        <div class="qcontainer" style="margin-bottom: 100px;">
-            <div class="qcard">
-                <div class="qlines"></div>
+        <div styl class="qcontainer" style="margin-bottom: 100px;">
+            <div style="margin-top: 208px;" class="qcard">
+                <div  class="qlines"></div>
                 <div class="ImgBx">
                     <img style="width: fit-content;" src="assets/images/owb.png" alt="">
                 </div>
-                <div class="qcontent">
+                <div   class="qcontent">
                     <div class="details">
                         <h2 style="letter-spacing: 2px ;" ><span style="color: #FFC70A;" >Overwhelmed</span>
                           Business Owners</h2>
@@ -7523,7 +7554,7 @@ step();
                     </div>
                 </div>
             </div>
-            <div class="qcard">
+            <div style="margin-top: 208px;" class="qcard">
                 <div class="qlines"></div>
                 <div class="ImgBx">
                     <img style="width: fit-content;" src="assets/images/eee.png" alt="">
@@ -7542,7 +7573,7 @@ step();
                     </div>
                 </div>
             </div>
-            <div  class="qcard">
+            <div style="margin-top: 208px;" class="qcard">
                 <div class="qlines"></div>
                 <div class="ImgBx">
                     <img style="width: fit-content;" src=" assets/images/f.png" alt="">
@@ -7555,7 +7586,7 @@ step();
                     </div>
                 </div>
             </div>
-            <div class="qcard">
+            <div style="margin-top: 208px;" class="qcard">
                 <div class="qlines"></div>
                 <div class="ImgBx">
                     <img style=" width: fit-content;" src="assets/images/boost.png" alt="">
@@ -7624,36 +7655,37 @@ step();
                 
             </div>
         </div>
-      
       </section>
-      <section style="font-family: bb; " id="services" class="section_services">
-        <div class="padding-global">
+      <section style=" font-family: bb; " id="services" class="section_services">
+        <div class="padding-global" style="padding:0px ;" >
           <div class="container-large">
             <div class="padding-section-large">
               <div style="padding-bottom: 0rem;" class="padding-bottom padding-huge">
-                <h1  style="font-size: 200px; text-align: center; padding-bottom: 10%;"> <span style="font-family: bb; color: #FFC70A;" >services</span></h1>
+                <h1  style="font-size: 100px; text-align: center; padding-bottom: 10%;"> <span style="font-family: bb; color: #FFC70A;" >services</span></h1>
                 <div class="w-layout-grid heading_grid">
-                  <h1 style="font-size: 100px;" id="w-node-_42c2cc61-e0f4-7a8f-bc79-ddeccdcde58d-614ffb99"
-                    data-w-id="42c2cc61-e0f4-7a8f-bc79-ddeccdcde58d">
-                    <span
-                      style="opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                      class="span_heading _01">Blissify </span>
-                    <span
+                  <h1 style="font-size: 60px;" id="w-node-_42c2cc61-e0f4-7a8f-bc79-ddeccdcde58d-614ffb99"
+                  data-w-id="42c2cc61-e0f4-7a8f-bc79-ddeccdcde58d">
+                  <span
+                  style="opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                  class="span_heading _01">Blissify </span>
+                  <span
                       style=" color: #FFC70A; -webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                      class="span_heading _02"> HR</span>
+                      class="span_heading _02">HR</span><p><br></p>
                     <span
-                      style="opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                      class="span_heading _03">Consultancy</span>
-
+                    style="opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                    class="span_heading _03">Consultancy</span>
+                    
                   </h1>
                   <div  class="svg-container">
                     <img style="padding-bottom: 0%; padding-top: 0% ;margin: 3%;margin-bottom: 0%; width: 47%; filter: brightness(1000000); margin-left: 22%; "  src=" assets/logos/b.png" alt="">
                   </div>
+                  <iframe style="width: 200vh; height: 60vh;" src="services.html" frameborder="0"></iframe>
                 </div>
               </div>
-              <div class="services_list">
+              <!-- <div class="services_list">
                 <div data-w-id="3fbd80e2-6eeb-fd7c-4d26-b09159e73241" class="services_accordion">
                   <div data-w-id="3fbd80e2-6eeb-fd7c-4d26-b09159e73242" class="services_question">
+                    <div class="cursor" ></div> 
                     <h2  style="letter-spacing: 1px; font-size: 80px;" class="heading_large">Our Employee Engagement Programs </h2>
                     <div class="services_icon-wrapper">
                       <img
@@ -7738,7 +7770,7 @@ step();
                   </div>
                 </div>
                 <div class="line white"></div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -7754,6 +7786,42 @@ step();
 
 
 
+  
+
+  
+  <section class="section_parallax">
+    <div class="parallax_wrap">
+      <div class="padding-global" >
+        <div class="container-large" >
+          <div class="padding-section-medium">
+            <div class="stat_component">
+              <div class="w-layout-grid stat_list">
+                <div data-w-id="4ca9e32e-c84f-b28a-d94e-bf5af664a414" style="opacity:0" class="stat_item">
+                  <div class="stat_number">2.1 <span style="color: #FFC70A;" >X</span></div>
+                  <div>Higher profitability</div>
+                </div>
+                <div data-w-id="4ca9e32e-c84f-b28a-d94e-bf5af664a420" style="opacity:0" class="stat_item">
+                  <div class="stat_number">+17<span style="color: #FFC70A;" >%</span></div>
+                  <div>Higher productivity</div>
+                </div>
+                <div data-w-id="4ca9e32e-c84f-b28a-d94e-bf5af664a41a" style="opacity:0" class="stat_item">
+                  <div class="stat_number">2.3 <span style="color: #FFC70A;" >X</span></div>
+                  <div>Higher customer satisfaction</div>
+                </div>
+                <div id="w-node-_0281ac95-3c18-16f3-2dc9-6792567fcf01-614ffb99"
+                  data-w-id="0281ac95-3c18-16f3-2dc9-6792567fcf01" style="opacity:0" class="stat_item">
+                  <div class="stat_number">-25<span style="color: #FFC70A;" >%</span></div>
+                  <div>Less turnovers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div  class="parallax_overlay"></div>
+    <img sizes="100vw" alt="" src="assets/images/DSC06655.jpeg" loading="lazy" class="parallax_content" />
+  </section>
   <section style="padding-top: 0%;padding-bottom: 0px; " class="d-flex flex-column vh-100 justify-content-center align-items-center" style=" height: 2px;padding-top: 30px;">
     <div  class=" container brandsCarousel">
         <div style="font-family: bb; display: flex; padding: 0px;"  class="d-flex carouselTrack">
@@ -7782,7 +7850,7 @@ step();
   <style>
             
     .q {
-        height: 300vh;
+        height: 250vh;
         overflow: hidden;
         
     }
@@ -7797,15 +7865,15 @@ step();
         height: 0;
         border-radius: 50%;
         transform: translate(-50%, -50%);
-        transition: opacity 0.3s; /* Smooth fade-out effect */
+        transition: opacity .5s; /* Smooth fade-out effect */
         z-index: -1; /* Keep circles behind other elements */
     }
     
     /* Styling for individual circles with unique colors */
     .circle:nth-child(1) { background-color: #ffc70a; }
-    .circle:nth-child(2) { background-color: black; }
-    .circle:nth-child(3) { background-color: #ffc70a; }
-    .circle:nth-child(4) { background-color: #ffc70a; }
+    .circle:nth-child(2) { background-color: #ffc70a; }
+    .circle:nth-child(3) { background-color: #1F1A4E; }
+    .circle:nth-child(4) { background-color: transparent; }
     </style>
 
 
@@ -7815,7 +7883,7 @@ step();
 <div id="circle1" class="circle"></div>
 <div id="circle2" class="circle"></div>
 <div id="circle3" class="circle"></div>
-<div id="circle4" class="circle"></div>
+<div id="circle4" style="padding: 500px; top: 900px;" class="circle"> <img src="assets/logos/blissify model icon only(1).png" alt=""></div>
 
 
 
@@ -7841,11 +7909,11 @@ step();
             if (scrollY >= startScroll && scrollY <= endScroll) {
                 // Calculate size relative to scroll range
                 const progress = (scrollY - startScroll) / (endScroll - startScroll);
-                const size = Math.min(200 * progress, 200); // Max size: 200vw
+                const size = Math.min(250 * progress, 250); // Max size: 200vw
                 
                 circle.style.width = `${size}vw`;
                 circle.style.height = `${size}vw`;
-                circle.style.opacity = 1 - progress; // Fade out as it expands
+                circle.style.opacity = 1 - 2.5* progress; // Fade out as it expands
             } else if (scrollY > endScroll) {
                 // Ensure circle is hidden after its animation
                 circle.style.opacity = 0;
@@ -7865,39 +7933,6 @@ step();
 </div>
 
 
-  <section class="section_parallax">
-    <div class="parallax_wrap">
-      <div class="padding-global" >
-        <div class="container-large" >
-          <div class="padding-section-medium">
-            <div class="stat_component">
-              <div class="w-layout-grid stat_list">
-                <div data-w-id="4ca9e32e-c84f-b28a-d94e-bf5af664a414" style="opacity:0" class="stat_item">
-                  <div class="stat_number">3.8 <span style="color: #FFC70A;" >X</span></div>
-                  <div>Higher profitability</div>
-                </div>
-                <div data-w-id="4ca9e32e-c84f-b28a-d94e-bf5af664a420" style="opacity:0" class="stat_item">
-                  <div class="stat_number">+17<span style="color: #FFC70A;" >%</span></div>
-                  <div>Higher productivity</div>
-                </div>
-                <div data-w-id="4ca9e32e-c84f-b28a-d94e-bf5af664a41a" style="opacity:0" class="stat_item">
-                  <div class="stat_number">3.2<span style="color: #FFC70A;" >X</span></div>
-                  <div>Higher customer satisfaction</div>
-                </div>
-                <div id="w-node-_0281ac95-3c18-16f3-2dc9-6792567fcf01-614ffb99"
-                  data-w-id="0281ac95-3c18-16f3-2dc9-6792567fcf01" style="opacity:0" class="stat_item">
-                  <div class="stat_number">-25<span style="color: #FFC70A;" >%</span></div>
-                  <div>Less turnovers</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div  class="parallax_overlay"></div>
-    <img sizes="100vw" alt="" src="assets/images/DSC06655.jpeg" loading="lazy" class="parallax_content" />
-  </section>
 
 
 
@@ -7940,12 +7975,12 @@ step();
       <div class="container-large">
         <div style="padding-top: 0%;" class="padding-section-large">
           <div style=" height: 30px; width: 110%;" class="svg-container">
-            <img style="padding-bottom: 0%; padding-top: 0%; padding-left: 30%; margin: 33% ;margin-bottom: 0%;margin-top: 0; width: 40%;" src="assets/logos/blissify model icon only(1).png" alt="">
+            <img style="padding-bottom: 5%; padding-top: 0%; padding-left: 30%; margin: 33% ;margin-bottom: 0%;margin-top: 0; width: 40%;" src="assets/logos/blissify model icon only(1).png" alt="">
           </div>
           <div class="info_component">
-            <div style="width: 50%; margin: 0px; padding: 0%;" class="margin-bottom margin-xxlarge">
+            <div class="margin-bottom margin-xxlarge">
               
-              <div class="max-width-medium">
+              <div class="max-width-medium" >
                 
                 <div class="margin-bottom margin-xsmall">
                   <div id="academy" class="text-style-tagline">Our Academy</div>
@@ -7954,7 +7989,13 @@ step();
                 <h1 data-w-id="f0d30bc4-8d12-642e-2a6b-229ea5b10ceb">
                   <span
                     style=" color: white; font-family: bb; opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                    class="span_heading _01"> <p style="letter-spacing: 2px; opacity: 1;">Blissify <span style="color: #FFC70A;" >HR</span> Academy</p></span>
+                    class="span_heading _01"> <p style="letter-spacing: 2px; opacity: 1;"> <span style="color: #FFC70A;" >Blissify HR Academy</span> </p></span>
+
+                </h1>
+                <h1 style="margin-left: 20vh; margin-top:  10vh;margin-bottom: 1vh;" data-w-id="f0d30bc4-8d12-642e-2a6b-229ea5b10ceb">
+                  <span
+                    style=" color: white; font-family: bb; opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                    class="span_heading _01"> <p style="font-size: 40vh; letter-spacing: 2px; opacity: 1;"> <span style="color: white;" >1</span> </p></span>
 
                 </h1>
               </div>
@@ -7981,7 +8022,7 @@ step();
               </div>
                
               <div class="info_content-right">
-                <p data-w-id="283bf4e9-6c6d-f364-fe35-c9a9826dce40" style="font-size: 30px;" class="text-size-medium">
+                <p data-w-id="283bf4e9-6c6d-f364-fe35-c9a9826dce40" style="font-size: 30px; opacity: 1;margin-top: -73px;" class="text-size-medium">
                   <strong style="font-stretch: wider; font-size: 50px; font-family: bb; "><span style="color: #FFC70A;" >HR</span> Journey </strong><br>
                   The <span style="color: #FFC70A;" >HR Journey</span> course offers a comprehensive overview of Human Resource Management, focusing on
                   recruitment, employee engagement, talent development, employee relations, Total Rewards, and core <span style="color: #FFC70A;" >HR</span>
@@ -8000,20 +8041,27 @@ step();
       <div class="container-large">
         <div class="padding-section-large">
           <div class="info_component">
-            <div class="margin-bottom margin-xxlarge">
-              <div class="max-width-medium">
-                <div class="margin-bottom margin-xsmall">
+            <div class="margin-bottom margin-xxlarge" >
+              <div class="max-width-medium" style =>
+                <div   class="margin-bottom margin-xsmall" style="margin-bottom: -19rem;">
+
                   <div style="color: #1F1A4E;" class="text-style-tagline">Our Academy</div>
+                  <h1 style="margin-left: 20vh; margin-top:  10vh;margin-bottom: 1vh;" data-w-id="f0d30bc4-8d12-642e-2a6b-229ea5b10ceb">
+                    <span
+                      style=" color: white; font-family: bb; opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                      class="span_heading _01"> <p   style=" margin-bottom: -100vh; font-size: 40vh; letter-spacing: 2px; opacity: 1;"> <span style="color: #1F1A4E;" >2</span> </p></span>
+  
+                  </h1>
                 </div>
                 <div style=" height: 30px; width: 250%;" class="svg-container">
-                  <img style="padding-bottom: 0%; padding-top: 0%; padding-left: 30%; margin: 33% ;margin-bottom: 0%;margin-top: 0; width: 40%;" src="assets/logos/blissify model icon only(1).png" alt="">
+                  <img style=" padding-bottom: 0%; padding-top: 0%; padding-left: 30%; margin: 33% ;margin-bottom: 0%;margin-top: 0; width: 40%;" src="assets/logos/blissify model icon only(1).png" alt="">
                 </div>
                 <h1 data-w-id="f0d30bc4-8d12-642e-2a6b-229ea5b10ceb">
                   <span
                     style="font-family: bb; color: var(--base-color-brand--black); opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                     class="span_heading _01">
                     
-                    <p style="letter-spacing: 2px; opacity: 1;">Advanced <span style="color: #FFC70A;" >HR</span> Journey Course</p>
+                    <p style="margin-top: -40hv; letter-spacing: 2px; opacity: 1;"> Advanced <span style="color: #FFC70A;" >HR</span> Journey Course</p>
                   </span></span>
                   
 
@@ -8022,7 +8070,7 @@ step();
             </div>
             <div class="info_content">
               <div class="info_content-right">
-                <p data-w-id="283bf4e9-6c6d-f364-fe35-c9a9826dce40" style="color: var(--base-color-brand--black); font-size: 30px;" class="text-size-medium">
+                <p data-w-id="283bf4e9-6c6d-f364-fe35-c9a9826dce40" style=" color: var(--base-color-brand--black); font-size: 30px;" class="text-size-medium">
                   The  <span style="color: #FFC70A;">Advanced </span> HR Journey course enhances HR professionals’ skills with strategies for innovative
                   recruitment, performance management, and data-driven solutions. It equips participants to align <span style="color: #FFC70A;">HR </span>
                   with business goals, boost engagement, and support talent retention and leadership development.
@@ -8392,9 +8440,7 @@ step();
               <div class="team_item item-padding">
                 <div class="margin-bottom margin-small">
                   <div style=" border-radius: 10%;" class="reveal_wrap">
-                    <img  style="border-radius: 10%; width="917"
-                      sizes="(max-width: 479px) 70vw, (max-width: 767px) 44vw, (max-width: 991px) 43vw, 21vw" alt=""
-                      src="assets/images/amany.jpg" loading="lazy" class="reveal_image is-portrait" />
+                    <img   src="assets/images/amany.jpg" loading="lazy" class="reveal_image is-portrait" />
                     <div   class="reveal_overlay"></div>
                   </div>
                 </div>
@@ -8409,65 +8455,6 @@ step();
              
   </section>
 
-  <section>
-    
-
-  </section>
-
-
-
-<section  >
-<div style="right: -300px;padding-left: 670px;
-padding-bottom: 200px" >
-  <button style="font-family: bb; font-size: 170% ;color: #1F1A4E; background-color: #FFC70A; width:200px  ;height: 70px; border-radius: 100px;" id="hideButton">Let's Play </button>
-
-</div>
-
- <div id="game"  style="display: flex ;">
-
-   <iframe  style="width: 1600px; height: 600px;" src="game/game.html" frameborder="0"></iframe>
- </div>
-
-
- <script>
-   const button = document.getElementById('hideButton');
-   const div = document.getElementById('game');
-   div.style.display = 'none';
-
-  button.addEventListener('click', () => {
-    if (div.style.display === 'none') {
-      div.style.display = 'block'; // Show the div
-      button.textContent = 'END'; // Change button text
-    } else {
-      div.style.display = 'none'; // Hide the div
-      button.textContent = "Let's Play"; // Change button text
-    }
-  });
-</script>
-
-
-
-
-
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <section style="padding-top: 0%;padding-bottom: 0px; " class="d-flex flex-column vh-100 justify-content-center align-items-center" style=" height: 2px;padding-top: 30px;">
     <div style="background-color: #1F1A4E; width: calc(300px * 4);"  class=" container brandsCarousel">
         <div style=" display: flex;  padding: 0px;" class="d-flex carouselTrack">
@@ -8475,6 +8462,14 @@ padding-bottom: 200px" >
             <div  class="brandLogo">
               <img src="assets/partners/1.png" alt="">
             </div>
+            <div class="brandLogo">
+              <img src="assets/partners/2.png" alt="">
+            </div>
+            
+            <div class="brandLogo">
+              <img src="assets/partners/3.png" alt="">
+            </div>
+            
             <div class="brandLogo">
               <img src="assets/partners/4.png" alt="">
             </div>
@@ -8489,6 +8484,14 @@ padding-bottom: 200px" >
             
             <div class="brandLogo">
               <img src="assets/partners/7.png" alt="">
+            </div>
+            
+            <div class="brandLogo">
+              <img src="assets/partners/11.png" alt="">
+            </div>
+            
+            <div class="brandLogo">
+              <img src="assets/partners/8.png" alt="">
             </div>
             
             <div class="brandLogo">
@@ -8518,21 +8521,20 @@ padding-bottom: 200px" >
             <div class="brandLogo">
               <img src="assets/partners/15.png" alt="">
             </div>
-            
             <div class="brandLogo">
-              <img src="assets/partners/1.png" alt="">
+              <img src="assets/partners/16.png" alt="">
             </div>
-            
-            <div class="brandLogo">
-              <img src="assets/partners/1.png" alt="">
-            </div>
-            
-            <div class="brandLogo">
-              <img src="assets/partners/1.png" alt="">
-            </div>
-            
             <div class="brandLogo">
               <img src="assets/partners/17.png" alt="">
+            </div>
+            <div class="brandLogo">
+              <img src="assets/partners/18.png" alt="">
+            </div>
+            <div class="brandLogo">
+              <img src="assets/partners/19.png" alt="">
+            </div>
+            <div class="brandLogo">
+              <img src="assets/partners/20.png" alt="">
             </div>
             
         </div>

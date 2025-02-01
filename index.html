@@ -434,38 +434,7 @@
       transition: unset
     }
 
-    .w-webflow-badge {
-      white-space: nowrap;
-      cursor: pointer;
-      box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
-      visibility: visible !important;
-      opacity: 1 !important;
-      z-index: 2147483647 !important;
-      color: #aaadb0 !important;
-      overflow: unset !important;
-      background-color: #fff !important;
-      border-radius: 3px !important;
-      width: auto !important;
-      height: auto !important;
-      margin: 0 !important;
-      padding: 6px !important;
-      font-size: 12px !important;
-      line-height: 14px !important;
-      text-decoration: none !important;
-      display: inline-block !important;
-      position: fixed !important;
-      inset: auto 12px 12px auto !important;
-      transform: none !important
-    }
-
-    .w-webflow-badge>img {
-      position: unset;
-      visibility: unset !important;
-      opacity: 1 !important;
-      vertical-align: middle !important;
-      display: inline-block !important
-    }
-
+    
     h1,
     h2,
     h3,
@@ -6763,7 +6732,7 @@
                 style="color: white; font-family: bb; " href="/#testimonials" class="nav_link w-nav-link">FeedBack</a>
               </div>
               <div  id="w-node-_71275dc7-c518-5320-1c4b-282e48aedfe0-48aedfd2" class="nav_button-wrapper">
-                <a  href="https://forms.gle/fTWjvX7rUx72wPYB9" target="_blank" class="button_link secondary w-inline-block"><img loading="lazy"
+                <a  href="https://forms.gle/fTWjvX7rUx72wPYB9" target="_blank" rel="noopener" class="button_link secondary w-inline-block"><img loading="lazy"
                     src="https://cdn.prod.website-files.com/6708d98bc7ddbb18614ffb9a/670ebe78bcb89791cb8c210d_icon-send.avif"
                     alt="" class="button_icon secondary" />
                   <div style=" font-family: bb; " class="button_text">Contact us</div>
@@ -6814,7 +6783,7 @@
                       <div class="hero_wrap">
                         <div data-w-id="9542a64e-bbb2-2f9a-11c0-c453eb475b53" style=" opacity:0">
 
-                          <a href="https://forms.gle/fTWjvX7rUx72wPYB9" target="_blank" class="button_link secondary w-inline-block"><img loading="lazy"
+                          <a href="https://forms.gle/fTWjvX7rUx72wPYB9" target="_blank" rel="noopener" class="button_link secondary w-inline-block"><img loading="lazy"
                               src="https://cdn.prod.website-files.com/6708d98bc7ddbb18614ffb9a/670ebe78b08e15897603af2b_icon-team.avif"
                               alt="" class="button_icon secondary" />
                             <div style="font-family: bb;" class="button_text">Contact us</div>
@@ -7057,8 +7026,10 @@ section {
     margin: auto;
     overflow: hidden;
     padding-bottom: 80px;
-    
-  filter: saturate(0)  brightness(1000%);
+    color: #1F1A4E;height: 48.117px;
+    padding-top: 0px;
+    margin-top: 16px;
+  
 
 
 }
@@ -7284,7 +7255,7 @@ step();
             </div>
           </div>
         </section> -->
-        <div class="padding-global">
+        <!-- <div class="padding-global">
           <div class="container-large">
             <div style="padding-bottom:0px ;" class="padding-section-large no-top-spacing">
               <div  style="font-family: bb; padding-bottom: 0;  " class="w-layout-grid ">
@@ -7300,31 +7271,73 @@ step();
                 <div  class="svg-container">
                   <img style="padding-bottom: 0%; padding-top: 10% ;margin: 0%;margin-bottom: 0%; width: 20%;" src=" assets/logos/b.png" alt="">
                 </div>
-                <style>
-                  .svg-container {
-                    display: inline-block;
-                    animation: moveUpDown 2s ease-in-out infinite;
-                  }
                 
-                  @keyframes moveUpDown {
-                    0% {
-                      transform: translateY(0);
-                    }
-                    50% {
-                      transform: translateY(-20px);
-                    }
-                    100% {
-                      transform: translateY(0);
-                    }
-                  }
-                </style>
                   
                   
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
+
+
+        <style>
+          .svg-container {
+            display: inline-block;
+            animation: moveUpDown 3s ease-in-out infinite;
+          }
+        
+          @keyframes moveUpDown {
+            0% {
+              transform: translateY(0);
+            }
+            50% {
+              transform: translateY(-20px);
+            }
+            100% {
+              transform: translateY(0);
+            }
+          }
+        </style>
+
+
+        <section style="height: 900.833px;">
+          <iframe style="width: 205vh; height: 120vh; overflow: hidden;" src="chalanges.html" frameborder="0"></iframe>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <section>
           <style>
             @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -7542,7 +7555,7 @@ step();
     
     
     
-        <div  style="width: 96%; font-family: bb;letter-spacing: 2px ;padding-top: 0%;padding-bottom: 0%;  padding-left: 2%; padding-right: 2%;" class="divv">
+        <!-- <div  style="width: 96%; font-family: bb;letter-spacing: 2px ;padding-top: 0%;padding-bottom: 0%;  padding-left: 2%; padding-right: 2%;" class="divv">
     
         <div styl class="qcontainer" style="margin-bottom: 100px;">
             <div style="margin-top: 208px;" class="qcard">
@@ -7606,7 +7619,7 @@ step();
             </div>
             
         </div>
-    </div>
+    </div> -->
     
     
         </section>
@@ -7682,12 +7695,12 @@ step();
                     
                   </h1>
                   <div  class="svg-container">
-                    <img style="padding-bottom: 0%; padding-top: 0% ;margin: 3%;margin-bottom: 0%; width: 47%; filter: brightness(1000000); margin-left: 22%; "  src=" assets/logos/b.png" alt="">
+                    <img style="size: 10vh;  padding-bottom: 0%; padding-top: 0% ;margin: 3%;margin-bottom: 0%; width: 22%; filter: brightness(1000000); margin-left: 22%; "  src=" assets/logos/b.png" alt="">
                   </div>
-                  <iframe style="width: 200vh; height: 60vh;" src="services.html" frameborder="0"></iframe>
+                  <!-- <iframe style="width: 200vh; height: 60vh;" src="services.html" frameborder="0"></iframe> -->
                 </div>
               </div>
-              <!-- <div class="services_list">
+              <div class="services_list">
                 <div data-w-id="3fbd80e2-6eeb-fd7c-4d26-b09159e73241" class="services_accordion">
                   <div data-w-id="3fbd80e2-6eeb-fd7c-4d26-b09159e73242" class="services_question">
                     <div class="cursor" ></div> 
@@ -7775,7 +7788,7 @@ step();
                   </div>
                 </div>
                 <div class="line white"></div>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -7871,12 +7884,12 @@ step();
         border-radius: 50%;
         transform: translate(-50%, -50%);
         transition: opacity .5s; /* Smooth fade-out effect */
-        z-index: -1; /* Keep circles behind other elements */
+        z-index: -1; 
     }
     
     /* Styling for individual circles with unique colors */
     .circle:nth-child(1) { background-color: #ffc70a; }
-    .circle:nth-child(2) { background-color: #ffc70a; }
+    .circle:nth-child(2) { background-color: transparent; }
     .circle:nth-child(3) { background-color: #1F1A4E; }
     .circle:nth-child(4) { background-color: transparent; }
     </style>
@@ -7886,9 +7899,14 @@ step();
 <div  >
 
 <div id="circle1" class="circle"></div>
-<div id="circle2" class="circle"></div>
+<div id="circle2" class="circle">
+  <svg style="rotate: 180deg;"   viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 0,100 A 100,100 0 0,1 200,100" fill="#FFC70A" />
+  </svg>
+  
+</div>
 <div id="circle3" class="circle"></div>
-<div id="circle4" style="padding: 500px; top: 900px;" class="circle"> <img src="assets/logos/blissify model icon only(1).png" alt=""></div>
+<div id="circle4" style="z-index: -1; " class="circle"> <img src="assets/logos/blissify model icon only(1).png" alt=""></div>
 
 
 
@@ -8050,11 +8068,11 @@ step();
               <div class="max-width-medium" style =>
                 <div   class="margin-bottom margin-xsmall" style="margin-bottom: -19rem;">
 
-                  <div style="color: #1F1A4E;" class="text-style-tagline">Our Academy</div>
+                  
                   <h1 style="margin-left: 20vh; margin-top:  10vh;margin-bottom: 1vh;" data-w-id="f0d30bc4-8d12-642e-2a6b-229ea5b10ceb">
                     <span
                       style=" color: white; font-family: bb; opacity:0;-webkit-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                      class="span_heading _01"> <p   style=" margin-bottom: -100vh; font-size: 40vh; letter-spacing: 2px; opacity: 1;"> <span style="color: #1F1A4E;" >2</span> </p></span>
+                      class="span_heading _01"> <p   style=" margin-bottom: -100vh; font-size: 20vh; letter-spacing: 2px; opacity: 1;"> <span style="color: #1F1A4E;" >2</span> </p></span>
   
                   </h1>
                 </div>
@@ -8445,7 +8463,7 @@ step();
               <div class="team_item item-padding">
                 <div class="margin-bottom margin-small">
                   <div style=" border-radius: 10%;" class="reveal_wrap">
-                    <img   src="assets/images/amany.jpg" loading="lazy" class="reveal_image is-portrait" />
+                    <img src="assets/images/amany.jpg" loading="lazy" class="reveal_image is-portrait" alt="Amany Helmy" />
                     <div   class="reveal_overlay"></div>
                   </div>
                 </div>
@@ -8459,7 +8477,61 @@ step();
               <div id="w-node-a2bd0029-aa36-2194-a818-08660596741f-614ffb99" class="empty"></div>
              
   </section>
+<section style="padding-right: 45vh; padding-bottom: 20vh; padding-left: 45vh;"  >
+  <header>
+    <link rel="stylesheet" href=".//dist/contact.css">
+  </header>
+  <div  class=" background">
+    <div  class="c">
+      <div  class="screen">
+        <form action="https://api.web3forms.com/submit" target="_blank" method="POST" class="app-form" id="form">
+          <input type="hidden" name="access_key" value="11e1eae4-af4f-4ba1-9065-348dadb49bad">
+          <div  class="screen-header">
+            <div class="screen-header-left">
+              <div class="screen-header-button close"></div>
+              <div class="screen-header-button maximize"></div>
+              <div class="screen-header-button minimize"></div>
+            </div>
+            <div class="screen-header-right">
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+            </div>
+          </div>
+          <div class="screen-body">
+            <div class="screen-body-item left">
+              <div  class="app-title">
+                <h2>
 
+                  <span>CONTACT</span>
+                  <span style="color: #1F1A4E;">US</span>
+                </h2>
+              </div>
+            </div>
+            <div class="screen-body-item">
+              <div class="app-form">
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="NAME"  name="name" type="text">
+                </div>
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="EMAIL" required name="email" type="email">
+                </div>
+                
+                <div class="app-form-group message">
+                  <input class="app-form-control" placeholder="MESSAGE" required name="message" type="text">
+                </div>
+                <div class="app-form-group buttons">
+                  <button style="color: #1F1A4E; font-weight: bold;" class="app-form-button">CANCEL</button>
+                  <button style="color: #FFC70A; font-weight: bold;" class="app-form-button">SEND</button>
+                </div>
+              </div>
+            </form>
+            </div>
+          </div>
+        </div>
+        
+        
+</section>
   <section style="padding-top: 0%;padding-bottom: 0px; " class="d-flex flex-column vh-100 justify-content-center align-items-center" style=" height: 2px;padding-top: 30px;">
     <div style="background-color: #1F1A4E; width: calc(300px * 4);"  class=" container brandsCarousel">
         <div style=" display: flex;  padding: 0px;" class="d-flex carouselTrack">

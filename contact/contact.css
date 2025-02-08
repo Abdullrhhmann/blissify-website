@@ -224,3 +224,66 @@
     padding: 0;
   }
 }
+@media screen and (max-width: 768px) {
+  section {
+    padding: 10vh 5vw; /* Reduce padding for smaller screens */
+  }
+
+  .c {
+    flex: 0 1 100%;
+    padding: 5px;
+  }
+
+  .screen-body {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .screen-body-item {
+    padding: 10px;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 20px;
+  }
+
+  .app-title {
+    flex-direction: row;
+    font-size: 20px;
+  }
+
+  .app-title span {
+    margin-right: 8px;
+  }
+
+  .app-form-control {
+    font-size: 12px;
+    padding: 8px 0;
+  }
+
+  /* Adjust images */
+ 
+}
+
+@media screen and (max-width: 480px) {
+  section {
+    padding: 5vh 2vw; /* Further reduce padding */
+  }
+
+  .screen-body {
+    padding: 10px;
+  }
+
+  .app-form-group {
+    margin-bottom: 10px;
+  }
+
+  .app-form-group.buttons {
+    text-align: center;
+  }
+
+  .app-form-button {
+    font-size: 12px;
+    padding: 8px;
+  }
+}

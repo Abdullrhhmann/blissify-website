@@ -3517,12 +3517,12 @@
       z-index: 50;
       background-color: #0000;
       align-items: center;
+      justify-content: space-between;
       margin-top: 1.5rem;
-      margin-left: 5%;
-      margin-right: 5%;
       display: flex;
       position: fixed;
-      inset: 0% 0% auto
+      inset: 0% 0% auto;
+      
     }
 
     .navbar-on-page {
@@ -3540,14 +3540,15 @@
       border-radius: 10rem;
       justify-content: space-between;
       align-items: center;
-      width: 100%;
-      max-width: 90rem;
+      width: 90%;
+      max-width: 50rem;
       height: auto;
-      min-height: 4rem;
-      margin-left: auto;
-      margin-right: auto;
+      min-height: 3.7rem;
+      
+      
       padding-left: 1.2rem;
       padding-right: .8rem;
+      
       display: flex
     }
 
@@ -3579,6 +3580,7 @@
     .nav_menu-link-wrapper {
       justify-content: flex-start;
       align-items: center;
+      
       display: flex
     }
 
@@ -4009,7 +4011,7 @@
       border-radius: 10rem;
       justify-content: flex-start;
       align-items: center;
-      padding: .9rem 1.75rem .9rem 1.2rem;
+      padding: .7rem .7rem .7rem .7rem;
       line-height: 1;
       text-decoration: none;
       transition: all .2s;
@@ -4520,10 +4522,7 @@
 
       .nav_component {
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 5%;
-        padding-right: 5%
+       
       }
 
       .nav_menu {
@@ -4541,11 +4540,13 @@
       }
 
       .nav_menu-link-wrapper {
-        background-color: #000;
-        border-radius: .5rem;
+        -webkit-backdrop-filter: blur(1rem);
+      backdrop-filter: blur(1rem);
+      background-color: #00000080;
+        
         flex-direction: column;
-        width: 100%;
-        padding: 2rem
+        width: 80%;
+        border-radius: 2rem;
       }
 
       .nav_link {
@@ -4976,7 +4977,8 @@
 
       .nav_container {
         min-height: 4rem;
-        padding-left: .8rem
+        padding-left: .8rem;
+        width: 70%
       }
 
       .nav_logo-link {
@@ -6805,15 +6807,15 @@
     <main class="main-wrapper max-width-full">
       <div data-collapse="medium" data-animation="default" data-duration="400"
         data-w-id="71275dc7-c518-5320-1c4b-282e48aedfd2" data-easing="ease" data-easing2="ease" role="banner"
-        class="nav_component w-nav" style="padding-left: 0%;">
+        class="nav_component w-nav" >
         <div class="nav_container">
           <a style="filter: brightness(100);" href="/" aria-current="page"
             class="nav_logo-link w-nav-brand w--current"><img src="assets/logos/Main.png" loading="lazy" alt=""
               class="image_logo" />
           </a>
           <nav role="navigation" id="w-node-_71275dc7-c518-5320-1c4b-282e48aedfd7-48aedfd2" class="nav_menu w-nav-menu">
-            <div class="nav_menu-link-wrapper" style="padding-left: 0px;padding-right: 0px;margin-right: 36px;margin-left: -40px;">
-              <div class="nav_menu-links">
+            <div class="nav_menu-link-wrapper" >
+              <div  class="nav_menu-links">
                 <a href="#home" style=" color: white; font-family: bb;" class="nav_link w-nav-link">Home</a><a
                   href="/#services" style=" color: white; font-family: bb;" class="nav_link w-nav-link">Services</a><a
                   href="#academy" style="color: white; font-family: bb; " class="nav_link w-nav-link">Academy</a><a

@@ -4325,7 +4325,7 @@
     }
     .challanges{
       height: 130vh;
-      margin-bottom: 110%;
+     
     }
     #humancintrictext{
         font-size: 4.7rem;
@@ -4741,7 +4741,7 @@
       }
       .challanges{
       height: 180vh;
-      padding-bottom: -20px;
+      
       
     }
       #humancintrictext{
@@ -7420,316 +7420,10 @@
 
 
 
-        <section>
+       
           <iframe class="challanges" style=" width:100% ; overflow: hidden;" src="chalanges.html" frameborder="0"></iframe>
         
-          <style>
-            @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
-
-            .divv {
-              padding: 10%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 100%;
-              min-height: 100vh;
-              background: var(--background-color--background-secondary);
-            }
-
-            .qcontainer {
-
-              position: relative;
-              display: flex;
-              padding: 0px 0px;
-              justify-content: center;
-              align-items: center;
-              flex-wrap: wrap;
-
-              gap: 80px;
-
-            }
-
-            .qcard {
-              position: relative;
-              width: 650px;
-              height: 200px;
-              background: #fff;
-              transition: .5s;
-
-              border-radius: 40px;
-            }
-
-            .qcard:hover {
-              height: 550px;
-            }
-
-            .qlines {
-              position: absolute;
-              inset: 0;
-              background: #000;
-              overflow: hidden;
-              border-radius: 40px;
-            }
-
-            .qlines::before {
-              content: '';
-              position: absolute;
-              top: 50%;
-              left: 50%;
-
-              width: 6020px;
-              height: 650px;
-              background: linear-gradient(transparent, white, transparent);
-              animation: animate1 3s linear infinite;
-              animation-play-state: paused;
-            }
-
-            .qcard:hover .qlines::before {
-              animation-play-state: running;
-            }
-
-            @keyframes animate1 {
-              0% {
-                transform: translate(-50%, -50%) rotate(0deg);
-              }
-
-              100% {
-                transform: translate(-50%, -50%) rotate(360deg);
-              }
-            }
-
-            .qlines::after {
-              content: '';
-              position: absolute;
-              inset: 3px;
-              background: var(--background-color--background-alternate);
-              border-radius: 40px;
-
-
-
-            }
-
-            .ImgBx {
-              position: absolute;
-              top: -50px;
-              left: 50%;
-              width: 150px;
-              height: 150px;
-              border-radius: 30px;
-              transform: translateX(-50%);
-              background: #000;
-              transition: 0.5s;
-              z-index: 10;
-              overflow: hidden;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-
-            .qcard:hover .ImgBx {
-              top: 25px;
-              width: 200px;
-              height: 200px;
-            }
-
-            .ImgBx::before {
-              content: '';
-              position: absolute;
-              top: 50%;
-              left: 50%;
-              width: 500px;
-              height: 125px;
-              transform: translate(-50%, -50%);
-              background: linear-gradient(transparent, white, transparent);
-              animation: animate2 6s linear infinite;
-              animation-play-state: paused;
-            }
-
-            .qcard:hover .ImgBx::before {
-              animation-play-state: running;
-
-            }
-
-            @keyframes animate2 {
-              0% {
-                transform: translate(-50%, -50%) rotate(360deg);
-              }
-
-              100% {
-                transform: translate(-50%, -50%) rotate(0deg);
-              }
-            }
-
-            .ImgBx::after {
-              content: '';
-              position: absolute;
-              inset: 3px;
-              border-radius: 30px;
-              background: var(--background-color--background-alternate);
-            }
-
-
-            .ImgBx img {
-              position: absolute;
-              width: 100px;
-              z-index: 1;
-              opacity: 0.5;
-              transition: 0.5s;
-            }
-
-            .qcard:hover .ImgBx img {
-              opacity: 1;
-            }
-
-
-            .qcontent {
-              position: absolute;
-              width: 100;
-              height: 100%;
-              display: flex;
-              justify-content: center;
-              align-items: flex-end;
-              overflow: hidden;
-            }
-
-            .qcontent .details {
-              padding: 50px 20px;
-              text-align: center;
-              width: 100%;
-              transition: 0.5s;
-              transform: translateY(145px);
-            }
-
-            .qcard:hover .qcontent .details {
-              transform: translateY(0px);
-            }
-
-            .qcontent .details h2 {
-              font-size: 1.9em;
-              font-weight: 500;
-              color: white;
-              line-height: 2.5em;
-            }
-
-            .qcontent .details p {
-              color: #fff;
-              opacity: 0;
-              transition: 0.5s;
-            }
-
-            .qcontent .details a {
-              display: inline-block;
-              padding: 8px 15px;
-              background: red;
-              color: #292929;
-              margin-top: 10px;
-              font-weight: 900;
-              border-radius: 10px;
-              text-decoration: none;
-              opacity: 0;
-              transition: 0.5s;
-            }
-
-            .qcard:hover .qcontent .details p,
-            .qcard:hover .qcontent .details a {
-              opacity: 1;
-            }
-          </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <!-- <div  style="width: 96%; font-family: bb;letter-spacing: 2px ;padding-top: 0%;padding-bottom: 0%;  padding-left: 2%; padding-right: 2%;" class="divv">
-    
-        <div styl class="qcontainer" style="margin-bottom: 100px;">
-            <div style="margin-top: 208px;" class="qcard">
-                <div  class="qlines"></div>
-                <div class="ImgBx">
-                    <img style="width: fit-content;" src="assets/images/owb.png" alt="">
-                </div>
-                <div   class="qcontent">
-                    <div class="details">
-                        <h2 style="letter-spacing: 2px ;" ><span style="color: #FFC70A;" >Overwhelmed</span>
-                          Business Owners</h2>
-                        <p  style="padding-bottom:40px ;">Business owners often get caught up in daily operations, neglecting team nurturing. This oversight can result in disengagement, reduced motivation, and lower productivity </p>
-                       
-                    </div>
-                </div>
-            </div>
-            <div style="margin-top: 208px;" class="qcard">
-                <div class="qlines"></div>
-                <div class="ImgBx">
-                    <img style="width: fit-content;" src="assets/images/eee.png" alt="">
-                </div>
-                <div class="qcontent">
-                    <div class="details">
-                        <h2 style="letter-spacing: 2px ;" >
-                          Enhancing
-                          employee
-                          <span style="color: #FFC70A;" >experience</span> 
-                          
-                          </h2>
-                        <p style="padding-bottom:40px ;">Blissify is committed to aligning employee experience with business goals, ensuring employees feel valued and heard, which is crucial for a productive workplace
-                        </p>
-                       
-                    </div>
-                </div>
-            </div>
-            <div style="margin-top: 208px;" class="qcard">
-                <div class="qlines"></div>
-                <div class="ImgBx">
-                    <img style="width: fit-content;" src=" assets/images/f.png" alt="">
-                </div>
-                <div class="qcontent">
-                    <div class="details">
-                        <h2 style="letter-spacing: 2px ;">Focusing on <span style="color: #FFC70A;" >engagement</span></h2>
-                        <p  style="padding-bottom:40px ;">We emphasize the vital role of employee engagement in business success, offering tools and strategies to enhance this experience effectively.</p>
-                       
-                    </div>
-                </div>
-            </div>
-            <div style="margin-top: 208px;" class="qcard">
-                <div class="qlines"></div>
-                <div class="ImgBx">
-                    <img style=" width: fit-content;" src="assets/images/boost.png" alt="">
-                </div>
-                <div class="qcontent">
-                    <div class="details">
-                        <h2  style=" letter-spacing: 2px ;"><span style="color: #FFC70A;" ><span style="color: #FFC70A;" >Boosting</span></span> Productivity</h2>
-                        <p   style="padding-bottom:40px ;">By fostering a positive, engaging work environment where employees feel valued, we help increase motivation and drive overall business performance.</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div> -->
-
-
-        </section>
-
+        
 
 
 
@@ -7971,6 +7665,9 @@
         .text-content {
             padding: 0;
             max-width: 100%;
+            margin-top: 10%;
+            margin-bottom: -20%;
+            
         }
     
         h1 {
